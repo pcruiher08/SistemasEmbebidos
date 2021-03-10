@@ -75,7 +75,7 @@ main:
 	mov	r1, r3
 	ldr	r0, .L7+4
 	bl	__isoc99_scanf
-	ldrb	r3, [fp, #-21]	@ zero_extendqisi2
+	ldrb	r3, [fp, #-21]	
 	cmp	r3, #43
 	bne	.L2
 	ldr	r2, [fp, #-12]
@@ -85,7 +85,7 @@ main:
 	add	r3, r2, r3
 	str	r3, [fp, #-8]
 .L2:
-	ldrb	r3, [fp, #-21]	@ zero_extendqisi2
+	ldrb	r3, [fp, #-21]	
 	cmp	r3, #45
 	bne	.L3
 	ldr	r2, [fp, #-12]
@@ -95,7 +95,7 @@ main:
 	sub	r3, r2, r3
 	str	r3, [fp, #-8]
 .L3:
-	ldrb	r3, [fp, #-21]	@ zero_extendqisi2
+	ldrb	r3, [fp, #-21]	
 	cmp	r3, #42
 	bne	.L4
 	ldr	r3, [fp, #-12]
@@ -105,7 +105,7 @@ main:
 	mul	r3, r2, r3
 	str	r3, [fp, #-8]
 .L4:
-	ldrb	r3, [fp, #-21]	@ zero_extendqisi2
+	ldrb	r3, [fp, #-21]	
 	cmp	r3, #47
 	bne	.L5
 	ldr	r3, [fp, #-12]
@@ -123,10 +123,10 @@ main:
 	str	r3, [fp, #-8]
 .L5:
 	ldr	r1, [fp, #-12]
-	ldrb	r3, [fp, #-21]	@ zero_extendqisi2
+	ldrb	r3, [fp, #-21]	
 	mov	lr, r3
 	ldr	r0, [fp, #-16]
-	ldrb	r3, [fp, #-21]	@ zero_extendqisi2
+	ldrb	r3, [fp, #-21]	
 	mov	ip, r3
 	ldr	r3, [fp, #-20]
 	ldr	r2, [fp, #-8]
