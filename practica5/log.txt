@@ -1,0 +1,4 @@
+RECEIVER> Temperature: 26 °C
+RECEIVER> Record 37: 1/1/1 Mon 12:6:0 AM 
+RECEIVER> Record 38: 1/1/1 Mon 12:6:10 AM 
+RECEIVER> Record 39: 1/1/1 Mon 12:6:20 AM 
