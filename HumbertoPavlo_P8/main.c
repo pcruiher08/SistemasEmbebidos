@@ -89,7 +89,7 @@ void output_thread(void* p){
       } else if(j == 3){
         myprintf("RIGHT\n");
       }
-	  int Ack = 0;
+	  int Ack = 5;
       xQueueSend(Global_Queue_Handle, &Ack, 1000);
     } else{
       myprintf("Failed to receive data from queue\n");
